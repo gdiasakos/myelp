@@ -42,17 +42,17 @@ variable "vpc_acl_rules" {
 variable "vpc_cidr_blocks" {
   description = "List of CIDR blocks for Address Prefix"
   default = [
-    "10.243.0.0/18",
-    "10.243.64.0/18",
-  "10.243.128.0/18"]
+    "10.7.201.0/24",
+    "10.7.202.0/24",
+  "10.7.203.0/24"]
 }
 
 variable "subnet_cidr_blocks" {
   description = "List of CIDR blocks for subnets"
   default = [
-    "10.243.0.0/24",
-    "10.243.64.0/24",
-  "10.243.128.0/24"]
+    "10.7.201.0/24",
+    "10.7.202.0/24",
+  "10.7.203.0/24"]
 }
 
 variable "vpc_enable_public_gateway" {
